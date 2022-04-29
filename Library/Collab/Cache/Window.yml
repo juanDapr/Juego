@@ -1,0 +1,379 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe70aba2e7074048aca5de573b64a59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SimpleSelectedItems:
+    m_Keys:
+    - Assets/Animations/Die.anim
+    - Assets/Animations/Die.anim.meta
+    - Assets/Animations/Hurt.anim
+    - Assets/Animations/Hurt.anim.meta
+    - Assets/Animations/Player.controller
+    - Assets/Animations/Traps.meta
+    - Assets/Animations/Traps/Firetrap.meta
+    - Assets/Animations/Traps/Firetrap/Activated.anim
+    - Assets/Animations/Traps/Firetrap/Activated.anim.meta
+    - Assets/Animations/Traps/Firetrap/Firetrap.controller
+    - Assets/Animations/Traps/Firetrap/Firetrap.controller.meta
+    - Assets/Animations/Traps/Firetrap/Idle.anim
+    - Assets/Animations/Traps/Firetrap/Idle.anim.meta
+    - Assets/Animations/Traps/Saw.meta
+    - Assets/Animations/Traps/Saw/Saw.anim
+    - Assets/Animations/Traps/Saw/Saw.anim.meta
+    - Assets/Animations/Traps/Saw/Saw.controller
+    - Assets/Animations/Traps/Saw/Saw.controller.meta
+    - Assets/Assets.index
+    - Assets/Assets.index.meta
+    - Assets/Audio.meta
+    - Assets/Audio/Arrow.ogg
+    - Assets/Audio/Arrow.ogg.meta
+    - Assets/Audio/Death.wav
+    - Assets/Audio/Death.wav.meta
+    - Assets/Audio/Fireball.wav
+    - Assets/Audio/Fireball.wav.meta
+    - Assets/Audio/Firetrap.wav
+    - Assets/Audio/Firetrap.wav.meta
+    - Assets/Audio/Heroic Intrusion.ogg
+    - Assets/Audio/Heroic Intrusion.ogg.meta
+    - Assets/Audio/Hurt.wav
+    - Assets/Audio/Hurt.wav.meta
+    - Assets/Audio/Impact.wav
+    - Assets/Audio/Impact.wav.meta
+    - Assets/Audio/Jump.wav
+    - Assets/Audio/Jump.wav.meta
+    - Assets/Audio/Life.wav
+    - Assets/Audio/Life.wav.meta
+    - Assets/Audio/SwordHit.wav
+    - Assets/Audio/SwordHit.wav.meta
+    - Assets/Levels.meta
+    - Assets/Levels/FinalRoom.unity
+    - Assets/Levels/FinalRoom.unity.meta
+    - Assets/Levels/Level1.unity
+    - Assets/Levels/Level1.unity.meta
+    - Assets/Levels/Level2.unity
+    - Assets/Levels/Level2.unity.meta
+    - Assets/Levels/Level3.unity
+    - Assets/Levels/Level3.unity.meta
+    - Assets/Prefab/Player.prefab
+    - Assets/Prefab/Player.prefab.meta
+    - Assets/Prefab/Traps.meta
+    - Assets/Prefab/Traps/Arrow.prefab
+    - Assets/Prefab/Traps/Arrow.prefab.meta
+    - Assets/Prefab/Traps/ArrowTrap.prefab
+    - Assets/Prefab/Traps/ArrowTrap.prefab.meta
+    - Assets/Prefab/Traps/Firetrap.prefab
+    - Assets/Prefab/Traps/Firetrap.prefab.meta
+    - Assets/Prefab/Traps/Saw.prefab
+    - Assets/Prefab/Traps/Saw.prefab.meta
+    - Assets/Prefab/Traps/Spikehead.prefab
+    - Assets/Prefab/Traps/Spikehead.prefab.meta
+    - Assets/Prefab/Traps/Spikes.prefab
+    - Assets/Prefab/Traps/Spikes.prefab.meta
+    - Assets/Sprites/Health.meta
+    - Assets/Sprites/Health/HealthBar.png
+    - Assets/Sprites/Health/HealthBar.png.meta
+    - Assets/Sprites/Health/Heart.png
+    - Assets/Sprites/Health/Heart.png.meta
+    - Assets/Sprites/Items/Boxes.meta
+    - Assets/Sprites/Items/Boxes/Box3.meta
+    - Assets/Sprites/Items/Boxes/Box3/Break (28x24).png
+    - Assets/Sprites/Items/Boxes/Box3/Break (28x24).png.meta
+    - Assets/Sprites/Items/Boxes/Box3/Hit (28x24).png
+    - Assets/Sprites/Items/Boxes/Box3/Hit (28x24).png.meta
+    - Assets/Sprites/Items/Boxes/Box3/Idle.png
+    - Assets/Sprites/Items/Boxes/Box3/Idle.png.meta
+    - Assets/Sprites/Items/Checkpoints.meta
+    - Assets/Sprites/Items/Checkpoints/Start.meta
+    - Assets/Sprites/Items/Checkpoints/Start/Start (Idle).png
+    - Assets/Sprites/Items/Checkpoints/Start/Start (Idle).png.meta
+    - Assets/Sprites/Items/Checkpoints/Start/Start (Moving) (64x64).png
+    - Assets/Sprites/Items/Checkpoints/Start/Start (Moving) (64x64).png.meta
+    - Assets/Sprites/Scripts/Core.meta
+    - Assets/Sprites/Scripts/Core/CameraController.cs
+    - Assets/Sprites/Scripts/Core/CameraController.cs.meta
+    - Assets/Sprites/Scripts/Core/Door.cs
+    - Assets/Sprites/Scripts/Core/Door.cs.meta
+    - Assets/Sprites/Scripts/Core/Room.cs
+    - Assets/Sprites/Scripts/Core/Room.cs.meta
+    - Assets/Sprites/Scripts/Core/SoundManager.cs
+    - Assets/Sprites/Scripts/Core/SoundManager.cs.meta
+    - Assets/Sprites/Scripts/Enemies.meta
+    - Assets/Sprites/Scripts/Enemies/ArrowTrap.cs
+    - Assets/Sprites/Scripts/Enemies/ArrowTrap.cs.meta
+    - Assets/Sprites/Scripts/Enemies/Enemy1Controller.cs
+    - Assets/Sprites/Scripts/Enemies/Enemy1Controller.cs.meta
+    - Assets/Sprites/Scripts/Enemies/EnemyDamage.cs
+    - Assets/Sprites/Scripts/Enemies/EnemyDamage.cs.meta
+    - Assets/Sprites/Scripts/Enemies/EnemyProjectile.cs
+    - Assets/Sprites/Scripts/Enemies/EnemyProjectile.cs.meta
+    - Assets/Sprites/Scripts/Enemies/Enemy_Sideways.cs
+    - Assets/Sprites/Scripts/Enemies/Enemy_Sideways.cs.meta
+    - Assets/Sprites/Scripts/Enemies/Firetrap.cs
+    - Assets/Sprites/Scripts/Enemies/Firetrap.cs.meta
+    - Assets/Sprites/Scripts/Enemies/Spikehead.cs
+    - Assets/Sprites/Scripts/Enemies/Spikehead.cs.meta
+    - Assets/Sprites/Scripts/Health/Health.cs
+    - Assets/Sprites/Scripts/Health/Healthbar.cs
+    - Assets/Sprites/Scripts/Health/Healthbar.cs.meta
+    - Assets/Sprites/Scripts/LoadingManager.cs
+    - Assets/Sprites/Scripts/LoadingManager.cs.meta
+    - Assets/Sprites/Scripts/ParallaxBackground.cs
+    - Assets/Sprites/Scripts/ParallaxBackground.cs.meta
+    - Assets/Sprites/Scripts/ParallaxCamera.cs
+    - Assets/Sprites/Scripts/ParallaxCamera.cs.meta
+    - Assets/Sprites/Scripts/ParallaxLayer.cs
+    - Assets/Sprites/Scripts/ParallaxLayer.cs.meta
+    - Assets/Sprites/Scripts/Player.meta
+    - Assets/Sprites/Scripts/Player/PlayerMovement.cs
+    - Assets/Sprites/Scripts/Player/PlayerMovement.cs.meta
+    - Assets/Sprites/Terrain.meta
+    - Assets/Sprites/Terrain/Terrain (16x16) 1.png
+    - Assets/Sprites/Terrain/Terrain (16x16) 1.png.meta
+    - Assets/Sprites/Terrain/Terrain Sliced (16x16).png
+    - Assets/Sprites/Terrain/Terrain Sliced (16x16).png.meta
+    - Assets/Sprites/Traps.meta
+    - Assets/Sprites/Traps/Arrow.meta
+    - Assets/Sprites/Traps/Arrow/Hit (18x18).png
+    - Assets/Sprites/Traps/Arrow/Hit (18x18).png.meta
+    - Assets/Sprites/Traps/Arrow/Idle (18x18).png
+    - Assets/Sprites/Traps/Arrow/Idle (18x18).png.meta
+    - Assets/Sprites/Traps/Falling Platforms.meta
+    - Assets/Sprites/Traps/Falling Platforms/Off.png
+    - Assets/Sprites/Traps/Falling Platforms/Off.png.meta
+    - Assets/Sprites/Traps/Falling Platforms/On (32x10).png
+    - Assets/Sprites/Traps/Falling Platforms/On (32x10).png.meta
+    - Assets/Sprites/Traps/Fan.meta
+    - Assets/Sprites/Traps/Fan/Off.png
+    - Assets/Sprites/Traps/Fan/Off.png.meta
+    - Assets/Sprites/Traps/Fan/On (24x8).png
+    - Assets/Sprites/Traps/Fan/On (24x8).png.meta
+    - Assets/Sprites/Traps/Fire.meta
+    - Assets/Sprites/Traps/Fire/Hit (16x32).png
+    - Assets/Sprites/Traps/Fire/Hit (16x32).png.meta
+    - Assets/Sprites/Traps/Fire/Off.png
+    - Assets/Sprites/Traps/Fire/Off.png.meta
+    - Assets/Sprites/Traps/Fire/On (16x32).png
+    - Assets/Sprites/Traps/Fire/On (16x32).png.meta
+    - Assets/Sprites/Traps/Items.meta
+    - Assets/Sprites/Traps/Items/Boxes.meta
+    - Assets/Sprites/Traps/Items/Boxes/Box3.meta
+    - Assets/Sprites/Traps/Items/Boxes/Box3/Break (28x24).png
+    - Assets/Sprites/Traps/Items/Boxes/Box3/Break (28x24).png.meta
+    - Assets/Sprites/Traps/Items/Boxes/Box3/Hit (28x24).png
+    - Assets/Sprites/Traps/Items/Boxes/Box3/Hit (28x24).png.meta
+    - Assets/Sprites/Traps/Items/Boxes/Box3/Idle.png
+    - Assets/Sprites/Traps/Items/Boxes/Box3/Idle.png.meta
+    - Assets/Sprites/Traps/Items/Checkpoints.meta
+    - Assets/Sprites/Traps/Items/Checkpoints/Start.meta
+    - Assets/Sprites/Traps/Items/Checkpoints/Start/Start (Idle).png
+    - Assets/Sprites/Traps/Items/Checkpoints/Start/Start (Idle).png.meta
+    - Assets/Sprites/Traps/Items/Checkpoints/Start/Start (Moving) (64x64).png
+    - Assets/Sprites/Traps/Items/Checkpoints/Start/Start (Moving) (64x64).png.meta
+    - Assets/Sprites/Traps/Platforms.meta
+    - Assets/Sprites/Traps/Platforms/Brown Off.png
+    - Assets/Sprites/Traps/Platforms/Brown Off.png.meta
+    - Assets/Sprites/Traps/Platforms/Brown On (32x8).png
+    - Assets/Sprites/Traps/Platforms/Brown On (32x8).png.meta
+    - Assets/Sprites/Traps/Platforms/Chain.png
+    - Assets/Sprites/Traps/Platforms/Chain.png.meta
+    - Assets/Sprites/Traps/Platforms/Grey Off.png
+    - Assets/Sprites/Traps/Platforms/Grey Off.png.meta
+    - Assets/Sprites/Traps/Platforms/Grey On (32x8).png
+    - Assets/Sprites/Traps/Platforms/Grey On (32x8).png.meta
+    - Assets/Sprites/Traps/Rock Head.meta
+    - Assets/Sprites/Traps/Rock Head/Blink (42x42).png
+    - Assets/Sprites/Traps/Rock Head/Blink (42x42).png.meta
+    - Assets/Sprites/Traps/Rock Head/Bottom Hit (42x42).png
+    - Assets/Sprites/Traps/Rock Head/Bottom Hit (42x42).png.meta
+    - Assets/Sprites/Traps/Rock Head/Idle.png
+    - Assets/Sprites/Traps/Rock Head/Idle.png.meta
+    - Assets/Sprites/Traps/Rock Head/Left Hit (42x42).png
+    - Assets/Sprites/Traps/Rock Head/Left Hit (42x42).png.meta
+    - Assets/Sprites/Traps/Rock Head/Right Hit (42x42).png
+    - Assets/Sprites/Traps/Rock Head/Right Hit (42x42).png.meta
+    - Assets/Sprites/Traps/Rock Head/Top Hit (42x42).png
+    - Assets/Sprites/Traps/Rock Head/Top Hit (42x42).png.meta
+    - Assets/Sprites/Traps/Sand Mud Ice.meta
+    - Assets/Sprites/Traps/Sand Mud Ice/Ice Particle.png
+    - Assets/Sprites/Traps/Sand Mud Ice/Ice Particle.png.meta
+    - Assets/Sprites/Traps/Sand Mud Ice/Mud Particle.png
+    - Assets/Sprites/Traps/Sand Mud Ice/Mud Particle.png.meta
+    - Assets/Sprites/Traps/Sand Mud Ice/Sand Mud Ice (16x6) 1.png
+    - Assets/Sprites/Traps/Sand Mud Ice/Sand Mud Ice (16x6) 1.png.meta
+    - Assets/Sprites/Traps/Sand Mud Ice/Sand Mud Ice Sliced (16x6).png
+    - Assets/Sprites/Traps/Sand Mud Ice/Sand Mud Ice Sliced (16x6).png.meta
+    - Assets/Sprites/Traps/Sand Mud Ice/Sand Particle.png
+    - Assets/Sprites/Traps/Sand Mud Ice/Sand Particle.png.meta
+    - Assets/Sprites/Traps/Saw.meta
+    - Assets/Sprites/Traps/Saw/Chain.png
+    - Assets/Sprites/Traps/Saw/Chain.png.meta
+    - Assets/Sprites/Traps/Saw/Off.png
+    - Assets/Sprites/Traps/Saw/Off.png.meta
+    - Assets/Sprites/Traps/Saw/On (38x38).png
+    - Assets/Sprites/Traps/Saw/On (38x38).png.meta
+    - Assets/Sprites/Traps/Spike Head.meta
+    - Assets/Sprites/Traps/Spike Head/Blink (54x52).png
+    - Assets/Sprites/Traps/Spike Head/Blink (54x52).png.meta
+    - Assets/Sprites/Traps/Spike Head/Bottom Hit (54x52).png
+    - Assets/Sprites/Traps/Spike Head/Bottom Hit (54x52).png.meta
+    - Assets/Sprites/Traps/Spike Head/Idle.png
+    - Assets/Sprites/Traps/Spike Head/Idle.png.meta
+    - Assets/Sprites/Traps/Spike Head/Left Hit (54x52).png
+    - Assets/Sprites/Traps/Spike Head/Left Hit (54x52).png.meta
+    - Assets/Sprites/Traps/Spike Head/Right Hit (54x52).png
+    - Assets/Sprites/Traps/Spike Head/Right Hit (54x52).png.meta
+    - Assets/Sprites/Traps/Spike Head/Top Hit (54x52).png
+    - Assets/Sprites/Traps/Spike Head/Top Hit (54x52).png.meta
+    - Assets/Sprites/Traps/Spiked Ball.meta
+    - Assets/Sprites/Traps/Spiked Ball/Chain.png
+    - Assets/Sprites/Traps/Spiked Ball/Chain.png.meta
+    - Assets/Sprites/Traps/Spiked Ball/Spiked Ball.png
+    - Assets/Sprites/Traps/Spiked Ball/Spiked Ball.png.meta
+    - Assets/Sprites/Traps/Spikes.meta
+    - Assets/Sprites/Traps/Spikes/Idle.png
+    - Assets/Sprites/Traps/Spikes/Idle.png.meta
+    - Assets/Sprites/Traps/Terrain.meta
+    - Assets/Sprites/Traps/Terrain/Terrain (16x16) 1.png
+    - Assets/Sprites/Traps/Terrain/Terrain (16x16) 1.png.meta
+    - Assets/Sprites/Traps/Terrain/Terrain Sliced (16x16).png
+    - Assets/Sprites/Traps/Terrain/Terrain Sliced (16x16).png.meta
+    - Assets/Sprites/Traps/Trampoline.meta
+    - Assets/Sprites/Traps/Trampoline/Idle.png
+    - Assets/Sprites/Traps/Trampoline/Idle.png.meta
+    - Assets/Sprites/Traps/Trampoline/Jump (28x28).png
+    - Assets/Sprites/Traps/Trampoline/Jump (28x28).png.meta
+    - Assets/Sprites/Traps/Traps.meta
+    - Assets/Sprites/Traps/Traps/Arrow.meta
+    - Assets/Sprites/Traps/Traps/Arrow/Arrows.png
+    - Assets/Sprites/Traps/Traps/Arrow/Arrows.png.meta
+    - Assets/Sprites/Traps/Traps/Arrow/Hit (18x18).png
+    - Assets/Sprites/Traps/Traps/Arrow/Hit (18x18).png.meta
+    - Assets/Sprites/Traps/Traps/Arrow/Idle (18x18).png
+    - Assets/Sprites/Traps/Traps/Arrow/Idle (18x18).png.meta
+    - Assets/Sprites/Traps/Traps/Falling Platforms.meta
+    - Assets/Sprites/Traps/Traps/Falling Platforms/Off.png
+    - Assets/Sprites/Traps/Traps/Falling Platforms/Off.png.meta
+    - Assets/Sprites/Traps/Traps/Falling Platforms/On (32x10).png
+    - Assets/Sprites/Traps/Traps/Falling Platforms/On (32x10).png.meta
+    - Assets/Sprites/Traps/Traps/Fan.meta
+    - Assets/Sprites/Traps/Traps/Fan/Off.png
+    - Assets/Sprites/Traps/Traps/Fan/Off.png.meta
+    - Assets/Sprites/Traps/Traps/Fan/On (24x8).png
+    - Assets/Sprites/Traps/Traps/Fan/On (24x8).png.meta
+    - Assets/Sprites/Traps/Traps/Fire.meta
+    - Assets/Sprites/Traps/Traps/Fire/Hit (16x32).png
+    - Assets/Sprites/Traps/Traps/Fire/Hit (16x32).png.meta
+    - Assets/Sprites/Traps/Traps/Fire/Off.png
+    - Assets/Sprites/Traps/Traps/Fire/Off.png.meta
+    - Assets/Sprites/Traps/Traps/Fire/On (16x32).png
+    - Assets/Sprites/Traps/Traps/Fire/On (16x32).png.meta
+    - Assets/Sprites/Traps/Traps/Items.meta
+    - Assets/Sprites/Traps/Traps/Items/Boxes.meta
+    - Assets/Sprites/Traps/Traps/Items/Boxes/Box3.meta
+    - Assets/Sprites/Traps/Traps/Items/Boxes/Box3/Break (28x24).png
+    - Assets/Sprites/Traps/Traps/Items/Boxes/Box3/Break (28x24).png.meta
+    - Assets/Sprites/Traps/Traps/Items/Boxes/Box3/Hit (28x24).png
+    - Assets/Sprites/Traps/Traps/Items/Boxes/Box3/Hit (28x24).png.meta
+    - Assets/Sprites/Traps/Traps/Items/Boxes/Box3/Idle.png
+    - Assets/Sprites/Traps/Traps/Items/Boxes/Box3/Idle.png.meta
+    - Assets/Sprites/Traps/Traps/Items/Checkpoints.meta
+    - Assets/Sprites/Traps/Traps/Items/Checkpoints/Start.meta
+    - Assets/Sprites/Traps/Traps/Items/Checkpoints/Start/Start (Idle).png
+    - Assets/Sprites/Traps/Traps/Items/Checkpoints/Start/Start (Idle).png.meta
+    - Assets/Sprites/Traps/Traps/Items/Checkpoints/Start/Start (Moving) (64x64).png
+    - Assets/Sprites/Traps/Traps/Items/Checkpoints/Start/Start (Moving) (64x64).png.meta
+    - Assets/Sprites/Traps/Traps/Platforms.meta
+    - Assets/Sprites/Traps/Traps/Platforms/Brown Off.png
+    - Assets/Sprites/Traps/Traps/Platforms/Brown Off.png.meta
+    - Assets/Sprites/Traps/Traps/Platforms/Brown On (32x8).png
+    - Assets/Sprites/Traps/Traps/Platforms/Brown On (32x8).png.meta
+    - Assets/Sprites/Traps/Traps/Platforms/Chain.png
+    - Assets/Sprites/Traps/Traps/Platforms/Chain.png.meta
+    - Assets/Sprites/Traps/Traps/Platforms/Grey Off.png
+    - Assets/Sprites/Traps/Traps/Platforms/Grey Off.png.meta
+    - Assets/Sprites/Traps/Traps/Platforms/Grey On (32x8).png
+    - Assets/Sprites/Traps/Traps/Platforms/Grey On (32x8).png.meta
+    - Assets/Sprites/Traps/Traps/Rock Head.meta
+    - Assets/Sprites/Traps/Traps/Rock Head/Blink (42x42).png
+    - Assets/Sprites/Traps/Traps/Rock Head/Blink (42x42).png.meta
+    - Assets/Sprites/Traps/Traps/Rock Head/Bottom Hit (42x42).png
+    - Assets/Sprites/Traps/Traps/Rock Head/Bottom Hit (42x42).png.meta
+    - Assets/Sprites/Traps/Traps/Rock Head/Idle.png
+    - Assets/Sprites/Traps/Traps/Rock Head/Idle.png.meta
+    - Assets/Sprites/Traps/Traps/Rock Head/Left Hit (42x42).png
+    - Assets/Sprites/Traps/Traps/Rock Head/Left Hit (42x42).png.meta
+    - Assets/Sprites/Traps/Traps/Rock Head/Right Hit (42x42).png
+    - Assets/Sprites/Traps/Traps/Rock Head/Right Hit (42x42).png.meta
+    - Assets/Sprites/Traps/Traps/Rock Head/Top Hit (42x42).png
+    - Assets/Sprites/Traps/Traps/Rock Head/Top Hit (42x42).png.meta
+    - Assets/Sprites/Traps/Traps/Sand Mud Ice.meta
+    - Assets/Sprites/Traps/Traps/Sand Mud Ice/Ice Particle.png
+    - Assets/Sprites/Traps/Traps/Sand Mud Ice/Ice Particle.png.meta
+    - Assets/Sprites/Traps/Traps/Sand Mud Ice/Mud Particle.png
+    - Assets/Sprites/Traps/Traps/Sand Mud Ice/Mud Particle.png.meta
+    - Assets/Sprites/Traps/Traps/Sand Mud Ice/Sand Mud Ice (16x6) 1.png
+    - Assets/Sprites/Traps/Traps/Sand Mud Ice/Sand Mud Ice (16x6) 1.png.meta
+    - Assets/Sprites/Traps/Traps/Sand Mud Ice/Sand Mud Ice Sliced (16x6).png
+    - Assets/Sprites/Traps/Traps/Sand Mud Ice/Sand Mud Ice Sliced (16x6).png.meta
+    - Assets/Sprites/Traps/Traps/Sand Mud Ice/Sand Particle.png
+    - Assets/Sprites/Traps/Traps/Sand Mud Ice/Sand Particle.png.meta
+    - Assets/Sprites/Traps/Traps/Saw.meta
+    - Assets/Sprites/Traps/Traps/Saw/Chain.png
+    - Assets/Sprites/Traps/Traps/Saw/Chain.png.meta
+    - Assets/Sprites/Traps/Traps/Saw/Off.png
+    - Assets/Sprites/Traps/Traps/Saw/Off.png.meta
+    - Assets/Sprites/Traps/Traps/Saw/On (38x38).png
+    - Assets/Sprites/Traps/Traps/Saw/On (38x38).png.meta
+    - Assets/Sprites/Traps/Traps/Spike Head.meta
+    - Assets/Sprites/Traps/Traps/Spike Head/Blink (54x52).png
+    - Assets/Sprites/Traps/Traps/Spike Head/Blink (54x52).png.meta
+    - Assets/Sprites/Traps/Traps/Spike Head/Bottom Hit (54x52).png
+    - Assets/Sprites/Traps/Traps/Spike Head/Bottom Hit (54x52).png.meta
+    - Assets/Sprites/Traps/Traps/Spike Head/Idle.png
+    - Assets/Sprites/Traps/Traps/Spike Head/Idle.png.meta
+    - Assets/Sprites/Traps/Traps/Spike Head/Left Hit (54x52).png
+    - Assets/Sprites/Traps/Traps/Spike Head/Left Hit (54x52).png.meta
+    - Assets/Sprites/Traps/Traps/Spike Head/Right Hit (54x52).png
+    - Assets/Sprites/Traps/Traps/Spike Head/Right Hit (54x52).png.meta
+    - Assets/Sprites/Traps/Traps/Spike Head/Top Hit (54x52).png
+    - Assets/Sprites/Traps/Traps/Spike Head/Top Hit (54x52).png.meta
+    - Assets/Sprites/Traps/Traps/Spiked Ball.meta
+    - Assets/Sprites/Traps/Traps/Spiked Ball/Chain.png
+    - Assets/Sprites/Traps/Traps/Spiked Ball/Chain.png.meta
+    - Assets/Sprites/Traps/Traps/Spiked Ball/Spiked Ball.png
+    - Assets/Sprites/Traps/Traps/Spiked Ball/Spiked Ball.png.meta
+    - Assets/Sprites/Traps/Traps/Spikes.meta
+    - Assets/Sprites/Traps/Traps/Spikes/Idle.png
+    - Assets/Sprites/Traps/Traps/Spikes/Idle.png.meta
+    - Assets/Sprites/Traps/Traps/Terrain.meta
+    - Assets/Sprites/Traps/Traps/Terrain/Terrain (16x16) 1.png
+    - Assets/Sprites/Traps/Traps/Terrain/Terrain (16x16) 1.png.meta
+    - Assets/Sprites/Traps/Traps/Terrain/Terrain Sliced (16x16).png
+    - Assets/Sprites/Traps/Traps/Terrain/Terrain Sliced (16x16).png.meta
+    - Assets/Sprites/Traps/Traps/Trampoline.meta
+    - Assets/Sprites/Traps/Traps/Trampoline/Idle.png
+    - Assets/Sprites/Traps/Traps/Trampoline/Idle.png.meta
+    - Assets/Sprites/Traps/Traps/Trampoline/Jump (28x28).png
+    - Assets/Sprites/Traps/Traps/Trampoline/Jump (28x28).png.meta
+    - Assets/scr.cs
+    - Assets/scr.cs.meta
+    - ProjectSettings/EditorBuildSettings.asset
+    - 
+    m_Values: 01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
+  RevisionSummary: ':c
+
+'
+  ChangesSearchValue: 
+  SelectedHistoryRevision: 
+  HistoryPageNumber: 0
+  TabIndex: 0
