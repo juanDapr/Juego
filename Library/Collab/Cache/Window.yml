@@ -14,11 +14,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
+    - .collabignore
+    - Assets/Animations.meta
     - Assets/Animations/Die.anim
     - Assets/Animations/Die.anim.meta
+    - Assets/Animations/Enemy_1_diying.anim
+    - Assets/Animations/Enemy_1_diying.anim.meta
+    - Assets/Animations/Enemy_1_walking.anim
+    - Assets/Animations/Enemy_1_walking.anim.meta
     - Assets/Animations/Hurt.anim
     - Assets/Animations/Hurt.anim.meta
+    - Assets/Animations/Idle.anim
+    - Assets/Animations/Idle.anim.meta
+    - Assets/Animations/Jump.anim
+    - Assets/Animations/Jump.anim.meta
+    - Assets/Animations/Player Controller.controller
+    - Assets/Animations/Player Controller.controller.meta
     - Assets/Animations/Player.controller
+    - Assets/Animations/Player.controller.meta
+    - Assets/Animations/Run.anim
+    - Assets/Animations/Run.anim.meta
     - Assets/Animations/Traps.meta
     - Assets/Animations/Traps/Firetrap.meta
     - Assets/Animations/Traps/Firetrap/Activated.anim
@@ -55,15 +70,13 @@ MonoBehaviour:
     - Assets/Audio/Life.wav.meta
     - Assets/Audio/SwordHit.wav
     - Assets/Audio/SwordHit.wav.meta
-    - Assets/Levels.meta
-    - Assets/Levels/FinalRoom.unity
-    - Assets/Levels/FinalRoom.unity.meta
-    - Assets/Levels/Level1.unity
-    - Assets/Levels/Level1.unity.meta
-    - Assets/Levels/Level2.unity
-    - Assets/Levels/Level2.unity.meta
-    - Assets/Levels/Level3.unity
-    - Assets/Levels/Level3.unity.meta
+    - Assets/Enemy 1.controller
+    - Assets/Enemy 1.controller.meta
+    - Assets/Prefab.meta
+    - Assets/Prefab/Enemy.prefab
+    - Assets/Prefab/Enemy.prefab.meta
+    - Assets/Prefab/Enemy1.prefab
+    - Assets/Prefab/Enemy1.prefab.meta
     - Assets/Prefab/Player.prefab
     - Assets/Prefab/Player.prefab.meta
     - Assets/Prefab/Traps.meta
@@ -79,11 +92,240 @@ MonoBehaviour:
     - Assets/Prefab/Traps/Spikehead.prefab.meta
     - Assets/Prefab/Traps/Spikes.prefab
     - Assets/Prefab/Traps/Spikes.prefab.meta
+    - Assets/Prefab/Wall_M.prefab
+    - Assets/Prefab/Wall_M.prefab.meta
+    - Assets/Scenes.meta
+    - Assets/Scenes/FinalRoom.unity
+    - Assets/Scenes/FinalRoom.unity.meta
+    - Assets/Scenes/Level1.unity
+    - Assets/Scenes/Level1.unity.meta
+    - Assets/Scenes/Level2.unity
+    - Assets/Scenes/Level2.unity.meta
+    - Assets/Scenes/Level3.unity
+    - Assets/Scenes/Level3.unity.meta
+    - Assets/Scenes/SampleScene.unity
+    - Assets/Sprites.meta
+    - Assets/Sprites/Backgrounds.meta
+    - Assets/Sprites/Backgrounds/Bg1.meta
+    - Assets/Sprites/Backgrounds/Bg1/1.png.meta
+    - Assets/Sprites/Backgrounds/Bg1/2.png.meta
+    - Assets/Sprites/Backgrounds/Bg1/3.png.meta
+    - Assets/Sprites/Backgrounds/Bg1/4.png.meta
+    - Assets/Sprites/Backgrounds/Bg1/5.png.meta
+    - Assets/Sprites/Backgrounds/Bg1/6.png.meta
+    - Assets/Sprites/Backgrounds/Bg1/7.png.meta
+    - Assets/Sprites/Backgrounds/Bg1/background.png.meta
+    - Assets/Sprites/Backgrounds/Bg2.meta
+    - Assets/Sprites/Backgrounds/Bg2/1.png.meta
+    - Assets/Sprites/Backgrounds/Bg2/2.png.meta
+    - Assets/Sprites/Backgrounds/Bg2/3.png.meta
+    - Assets/Sprites/Backgrounds/Bg2/4.png.meta
+    - Assets/Sprites/Backgrounds/Bg2/5.png.meta
+    - Assets/Sprites/Backgrounds/Bg2/6.png.meta
+    - Assets/Sprites/Backgrounds/Bg2/7.png.meta
+    - Assets/Sprites/Backgrounds/Bg2/background.png.meta
+    - Assets/Sprites/Backgrounds/Bg3.meta
+    - Assets/Sprites/Backgrounds/Bg3/1.png.meta
+    - Assets/Sprites/Backgrounds/Bg3/2.png.meta
+    - Assets/Sprites/Backgrounds/Bg3/3.png.meta
+    - Assets/Sprites/Backgrounds/Bg3/4.png.meta
+    - Assets/Sprites/Backgrounds/Bg3/5.png.meta
+    - Assets/Sprites/Backgrounds/Bg3/6.png.meta
+    - Assets/Sprites/Backgrounds/Bg3/7.png.meta
+    - Assets/Sprites/Backgrounds/Bg3/background.png.meta
+    - Assets/Sprites/Boxes.meta
+    - Assets/Sprites/Boxes/1.png.meta
+    - Assets/Sprites/Boxes/2.png.meta
+    - Assets/Sprites/Boxes/3.png.meta
+    - Assets/Sprites/Boxes/4.png.meta
+    - Assets/Sprites/Boxes/5.png.meta
+    - Assets/Sprites/Boxes/6.png.meta
+    - Assets/Sprites/Bushes.meta
+    - Assets/Sprites/Bushes/1.png.meta
+    - Assets/Sprites/Bushes/2.png.meta
+    - Assets/Sprites/Bushes/3.png.meta
+    - Assets/Sprites/Bushes/4.png.meta
+    - Assets/Sprites/Bushes/5.png.meta
+    - Assets/Sprites/Bushes/6.png.meta
+    - Assets/Sprites/Bushes/7.png.meta
+    - Assets/Sprites/Bushes/8.png.meta
+    - Assets/Sprites/Bushes/9.png.meta
+    - Assets/Sprites/Character.meta
+    - Assets/Sprites/Character/Demo.unity
+    - Assets/Sprites/Character/Demo.unity.meta
+    - Assets/Sprites/Character/DemoSettings.lighting
+    - Assets/Sprites/Character/DemoSettings.lighting.meta
+    - Assets/Sprites/Character/Dragon Warrior AI.ai.meta
+    - Assets/Sprites/Character/Dragon Warrior EPS.eps.meta
+    - Assets/Sprites/Character/Dragon Warrior PNG.meta
+    - Assets/Sprites/Character/Dragon Warrior PNG/attack_01.png.meta
+    - Assets/Sprites/Character/Dragon Warrior PNG/attack_02.png.meta
+    - Assets/Sprites/Character/Dragon Warrior PNG/attack_03.png.meta
+    - Assets/Sprites/Character/Dragon Warrior PNG/crouch_01.png.meta
+    - Assets/Sprites/Character/Dragon Warrior PNG/crouch_02.png.meta
+    - Assets/Sprites/Character/Dragon Warrior PNG/crouch_ATK_01.png.meta
+    - Assets/Sprites/Character/Dragon Warrior PNG/crouch_ATK_02.png.meta
+    - Assets/Sprites/Character/Dragon Warrior PNG/crouch_ATK_03.png.meta
+    - Assets/Sprites/Character/Dragon Warrior PNG/die_001.png.meta
+    - Assets/Sprites/Character/Dragon Warrior PNG/die_002.png.meta
+    - Assets/Sprites/Character/Dragon Warrior PNG/die_003.png.meta
+    - Assets/Sprites/Character/Dragon Warrior PNG/die_004.png.meta
+    - Assets/Sprites/Character/Dragon Warrior PNG/die_005.png.meta
+    - Assets/Sprites/Character/Dragon Warrior PNG/die_006.png.meta
+    - Assets/Sprites/Character/Dragon Warrior PNG/die_007.png.meta
+    - Assets/Sprites/Character/Dragon Warrior PNG/die_008.png.meta
+    - Assets/Sprites/Character/Dragon Warrior PNG/die_009.png.meta
+    - Assets/Sprites/Character/Dragon Warrior PNG/die_010.png.meta
+    - Assets/Sprites/Character/Dragon Warrior PNG/dizzy_01.png.meta
+    - Assets/Sprites/Character/Dragon Warrior PNG/dizzy_02.png.meta
+    - Assets/Sprites/Character/Dragon Warrior PNG/dizzy_03.png.meta
+    - Assets/Sprites/Character/Dragon Warrior PNG/flyKick_01.png.meta
+    - Assets/Sprites/Character/Dragon Warrior PNG/flyKick_02.png.meta
+    - Assets/Sprites/Character/Dragon Warrior PNG/flyKick_03.png.meta
+    - Assets/Sprites/Character/Dragon Warrior PNG/flyKick_04.png.meta
+    - Assets/Sprites/Character/Dragon Warrior PNG/flyKick_05.png.meta
+    - Assets/Sprites/Character/Dragon Warrior PNG/flyKick_06.png.meta
+    - Assets/Sprites/Character/Dragon Warrior PNG/hurt_01.png.meta
+    - Assets/Sprites/Character/Dragon Warrior PNG/hurt_02.png.meta
+    - Assets/Sprites/Character/Dragon Warrior PNG/idle_01.png.meta
+    - Assets/Sprites/Character/Dragon Warrior PNG/idle_02.png.meta
+    - Assets/Sprites/Character/Dragon Warrior PNG/idle_03.png.meta
+    - Assets/Sprites/Character/Dragon Warrior PNG/idle_04.png.meta
+    - Assets/Sprites/Character/Dragon Warrior PNG/idle_05.png.meta
+    - Assets/Sprites/Character/Dragon Warrior PNG/idle_06.png.meta
+    - Assets/Sprites/Character/Dragon Warrior PNG/jumpATK_01.png.meta
+    - Assets/Sprites/Character/Dragon Warrior PNG/jumpATK_02.png.meta
+    - Assets/Sprites/Character/Dragon Warrior PNG/jumpATK_03.png.meta
+    - Assets/Sprites/Character/Dragon Warrior PNG/jump_01.png.meta
+    - Assets/Sprites/Character/Dragon Warrior PNG/jump_02.png.meta
+    - Assets/Sprites/Character/Dragon Warrior PNG/strike_01.png.meta
+    - Assets/Sprites/Character/Dragon Warrior PNG/strike_02.png.meta
+    - Assets/Sprites/Character/Dragon Warrior PNG/strike_03.png.meta
+    - Assets/Sprites/Character/Dragon Warrior PNG/strike_04.png.meta
+    - Assets/Sprites/Character/Dragon Warrior PNG/strike_05.png.meta
+    - Assets/Sprites/Character/Dragon Warrior PNG/walk_01.png.meta
+    - Assets/Sprites/Character/Dragon Warrior PNG/walk_02.png.meta
+    - Assets/Sprites/Character/Dragon Warrior PNG/walk_03.png.meta
+    - Assets/Sprites/Character/Dragon Warrior PNG/walk_04.png.meta
+    - Assets/Sprites/Character/Dragon Warrior PNG/walk_05.png.meta
+    - Assets/Sprites/Character/Dragon Warrior PNG/walk_06.png.meta
+    - Assets/Sprites/Character/Dragon Warrior PNG/win_01.png.meta
+    - Assets/Sprites/Character/Dragon Warrior PNG/win_02.png.meta
+    - Assets/Sprites/Character/Effects.meta
+    - Assets/Sprites/Character/Effects/dashwind_01.png.meta
+    - Assets/Sprites/Character/Effects/dashwind_02.png.meta
+    - Assets/Sprites/Character/Effects/dashwind_03.png.meta
+    - Assets/Sprites/Character/Effects/dashwind_04.png.meta
+    - Assets/Sprites/Character/Effects/dashwind_05.png.meta
+    - Assets/Sprites/Character/Effects/dashwind_06.png.meta
+    - Assets/Sprites/Character/Effects/explosion_01.png.meta
+    - Assets/Sprites/Character/Effects/explosion_02.png.meta
+    - Assets/Sprites/Character/Effects/explosion_03.png.meta
+    - Assets/Sprites/Character/Effects/explosion_04.png.meta
+    - Assets/Sprites/Character/Effects/explosion_05.png.meta
+    - Assets/Sprites/Character/Effects/explosion_06.png.meta
+    - Assets/Sprites/Character/Effects/fireball_01.png.meta
+    - Assets/Sprites/Character/Effects/fireball_02.png.meta
+    - Assets/Sprites/Character/Effects/fireball_03.png.meta
+    - Assets/Sprites/Character/Effects/iblast_01.png.meta
+    - Assets/Sprites/Character/Effects/iblast_02.png.meta
+    - Assets/Sprites/Character/Effects/iblast_03.png.meta
+    - Assets/Sprites/Character/Effects/particlel.png.meta
+    - Assets/Sprites/Character/Effects/potion.png.meta
+    - Assets/Sprites/Character/Read Me.txt.meta
+    - Assets/Sprites/Enemies.meta
+    - Assets/Sprites/Enemies/Enemy1.meta
+    - Assets/Sprites/Enemies/Enemy1/Attacking.meta
+    - Assets/Sprites/Enemies/Enemy1/Attacking/Minotaur_01_Attacking_000.png
+    - Assets/Sprites/Enemies/Enemy1/Attacking/Minotaur_01_Attacking_000.png.meta
+    - Assets/Sprites/Enemies/Enemy1/Attacking/Minotaur_01_Attacking_001.png
+    - Assets/Sprites/Enemies/Enemy1/Attacking/Minotaur_01_Attacking_001.png.meta
+    - Assets/Sprites/Enemies/Enemy1/Attacking/Minotaur_01_Attacking_002.png
+    - Assets/Sprites/Enemies/Enemy1/Attacking/Minotaur_01_Attacking_002.png.meta
+    - Assets/Sprites/Enemies/Enemy1/Attacking/Minotaur_01_Attacking_003.png
+    - Assets/Sprites/Enemies/Enemy1/Attacking/Minotaur_01_Attacking_003.png.meta
+    - Assets/Sprites/Enemies/Enemy1/Attacking/Minotaur_01_Attacking_004.png
+    - Assets/Sprites/Enemies/Enemy1/Attacking/Minotaur_01_Attacking_004.png.meta
+    - Assets/Sprites/Enemies/Enemy1/Attacking/Minotaur_01_Attacking_005.png
+    - Assets/Sprites/Enemies/Enemy1/Attacking/Minotaur_01_Attacking_005.png.meta
+    - Assets/Sprites/Enemies/Enemy1/Attacking/Minotaur_01_Attacking_006.png
+    - Assets/Sprites/Enemies/Enemy1/Attacking/Minotaur_01_Attacking_006.png.meta
+    - Assets/Sprites/Enemies/Enemy1/Attacking/Minotaur_01_Attacking_007.png
+    - Assets/Sprites/Enemies/Enemy1/Attacking/Minotaur_01_Attacking_007.png.meta
+    - Assets/Sprites/Enemies/Enemy1/Attacking/Minotaur_01_Attacking_008.png
+    - Assets/Sprites/Enemies/Enemy1/Attacking/Minotaur_01_Attacking_008.png.meta
+    - Assets/Sprites/Enemies/Enemy1/Attacking/Minotaur_01_Attacking_009.png
+    - Assets/Sprites/Enemies/Enemy1/Attacking/Minotaur_01_Attacking_009.png.meta
+    - Assets/Sprites/Enemies/Enemy1/Attacking/Minotaur_01_Attacking_010.png
+    - Assets/Sprites/Enemies/Enemy1/Attacking/Minotaur_01_Attacking_010.png.meta
+    - Assets/Sprites/Enemies/Enemy1/Attacking/Minotaur_01_Attacking_011.png
+    - Assets/Sprites/Enemies/Enemy1/Attacking/Minotaur_01_Attacking_011.png.meta
+    - Assets/Sprites/Enemies/Enemy1/Attacking/meleeAttack.anim
+    - Assets/Sprites/Enemies/Enemy1/Attacking/meleeAttack.anim.meta
+    - Assets/Sprites/Enemies/Enemy1/Enemy1.controller
+    - Assets/Sprites/Enemies/Enemy1/Enemy1.controller.meta
+    - Assets/Sprites/Enemies/Enemy1/Enemy1_diying.meta
+    - Assets/Sprites/Enemies/Enemy1/Enemy1_diying/Die.anim
+    - Assets/Sprites/Enemies/Enemy1/Enemy1_diying/Die.anim.meta
+    - Assets/Sprites/Enemies/Enemy1/Enemy1_diying/Enemy1_dead.anim
+    - Assets/Sprites/Enemies/Enemy1/Enemy1_diying/Enemy1_dead.anim.meta
+    - Assets/Sprites/Enemies/Enemy1/Enemy1_walking.meta
+    - Assets/Sprites/Enemies/Enemy1/Enemy1_walking/Enemy1.controller
+    - Assets/Sprites/Enemies/Enemy1/Enemy1_walking/Enemy1.controller.meta
+    - Assets/Sprites/Enemies/Enemy1/Enemy1_walking/Enemy1_Walking.anim
+    - Assets/Sprites/Enemies/Enemy1/Enemy1_walking/Enemy1_Walking.anim.meta
+    - Assets/Sprites/Enemies/Enemy1/Enemy1_walking/Minotaur_01_Walking_000.controller
+    - Assets/Sprites/Enemies/Enemy1/Enemy1_walking/Minotaur_01_Walking_000.controller.meta
+    - Assets/Sprites/Enemies/Enemy1/Enemy1_walking/moving.anim
+    - Assets/Sprites/Enemies/Enemy1/Enemy1_walking/moving.anim.meta
+    - Assets/Sprites/Enemies/Enemy1/idle.meta
+    - Assets/Sprites/Enemies/Enemy1/idle/IdleEnemy.anim
+    - Assets/Sprites/Enemies/Enemy1/idle/IdleEnemy.anim.meta
+    - Assets/Sprites/Enemies/Enemy1/idle/Minotaur_01_Idle_000.png
+    - Assets/Sprites/Enemies/Enemy1/idle/Minotaur_01_Idle_000.png.meta
+    - Assets/Sprites/Enemies/Enemy1/idle/Minotaur_01_Idle_001.png
+    - Assets/Sprites/Enemies/Enemy1/idle/Minotaur_01_Idle_001.png.meta
+    - Assets/Sprites/Enemies/Enemy1/idle/Minotaur_01_Idle_002.png
+    - Assets/Sprites/Enemies/Enemy1/idle/Minotaur_01_Idle_002.png.meta
+    - Assets/Sprites/Enemies/Enemy1/idle/Minotaur_01_Idle_003.png
+    - Assets/Sprites/Enemies/Enemy1/idle/Minotaur_01_Idle_003.png.meta
+    - Assets/Sprites/Enemies/Enemy1/idle/Minotaur_01_Idle_004.png
+    - Assets/Sprites/Enemies/Enemy1/idle/Minotaur_01_Idle_004.png.meta
+    - Assets/Sprites/Enemies/Enemy1/idle/Minotaur_01_Idle_005.png
+    - Assets/Sprites/Enemies/Enemy1/idle/Minotaur_01_Idle_005.png.meta
+    - Assets/Sprites/Enemies/Enemy1/idle/Minotaur_01_Idle_006.png
+    - Assets/Sprites/Enemies/Enemy1/idle/Minotaur_01_Idle_006.png.meta
+    - Assets/Sprites/Enemies/Enemy1/idle/Minotaur_01_Idle_007.png
+    - Assets/Sprites/Enemies/Enemy1/idle/Minotaur_01_Idle_007.png.meta
+    - Assets/Sprites/Enemies/Enemy1/idle/Minotaur_01_Idle_008.png
+    - Assets/Sprites/Enemies/Enemy1/idle/Minotaur_01_Idle_008.png.meta
+    - Assets/Sprites/Enemies/Enemy1/idle/Minotaur_01_Idle_009.png
+    - Assets/Sprites/Enemies/Enemy1/idle/Minotaur_01_Idle_009.png.meta
+    - Assets/Sprites/Enemies/Enemy1/idle/Minotaur_01_Idle_010.png
+    - Assets/Sprites/Enemies/Enemy1/idle/Minotaur_01_Idle_010.png.meta
+    - Assets/Sprites/Enemies/Enemy1/idle/Minotaur_01_Idle_011.png
+    - Assets/Sprites/Enemies/Enemy1/idle/Minotaur_01_Idle_011.png.meta
+    - Assets/Sprites/Fence.meta
+    - Assets/Sprites/Fence/1.png.meta
+    - Assets/Sprites/Fence/2.png.meta
+    - Assets/Sprites/Fence/3.png.meta
+    - Assets/Sprites/Grass.meta
+    - Assets/Sprites/Grass/1.png.meta
+    - Assets/Sprites/Grass/10.png.meta
+    - Assets/Sprites/Grass/2.png.meta
+    - Assets/Sprites/Grass/3.png.meta
+    - Assets/Sprites/Grass/4.png.meta
+    - Assets/Sprites/Grass/5.png.meta
+    - Assets/Sprites/Grass/6.png.meta
+    - Assets/Sprites/Grass/7.png.meta
+    - Assets/Sprites/Grass/8.png.meta
+    - Assets/Sprites/Grass/9.png.meta
     - Assets/Sprites/Health.meta
     - Assets/Sprites/Health/HealthBar.png
     - Assets/Sprites/Health/HealthBar.png.meta
     - Assets/Sprites/Health/Heart.png
     - Assets/Sprites/Health/Heart.png.meta
+    - Assets/Sprites/Items.meta
     - Assets/Sprites/Items/Boxes.meta
     - Assets/Sprites/Items/Boxes/Box3.meta
     - Assets/Sprites/Items/Boxes/Box3/Break (28x24).png
@@ -98,6 +340,100 @@ MonoBehaviour:
     - Assets/Sprites/Items/Checkpoints/Start/Start (Idle).png.meta
     - Assets/Sprites/Items/Checkpoints/Start/Start (Moving) (64x64).png
     - Assets/Sprites/Items/Checkpoints/Start/Start (Moving) (64x64).png.meta
+    - Assets/Sprites/Items/Tile_01.png.meta
+    - Assets/Sprites/Items/Tile_02.png.meta
+    - Assets/Sprites/Items/Tile_03.png.meta
+    - Assets/Sprites/Items/Tile_04.png.meta
+    - Assets/Sprites/Items/Tile_05.png.meta
+    - Assets/Sprites/Items/Tile_06.png.meta
+    - Assets/Sprites/Items/Tile_07.png.meta
+    - Assets/Sprites/Items/Tile_08.png.meta
+    - Assets/Sprites/Items/Tile_09.png.meta
+    - Assets/Sprites/Items/Tile_10.png.meta
+    - Assets/Sprites/Items/Tile_11.png.meta
+    - Assets/Sprites/Items/Tile_12.png.meta
+    - Assets/Sprites/Items/Tile_13.png.meta
+    - Assets/Sprites/Items/Tile_14.png.meta
+    - Assets/Sprites/Items/Tile_15.png.meta
+    - Assets/Sprites/Items/Tile_16.png.meta
+    - Assets/Sprites/Items/Tile_17.png.meta
+    - Assets/Sprites/Items/Tile_18.png.meta
+    - Assets/Sprites/Items/Tile_19.png.meta
+    - Assets/Sprites/Items/Tile_20.png.meta
+    - Assets/Sprites/Items/Tile_21.png.meta
+    - Assets/Sprites/Items/Tile_22.png.meta
+    - Assets/Sprites/Items/Tile_23.png.meta
+    - Assets/Sprites/Items/Tile_24.png.meta
+    - Assets/Sprites/Items/Tile_25.png.meta
+    - Assets/Sprites/Items/Tile_26.png.meta
+    - Assets/Sprites/Items/Tile_27.png.meta
+    - Assets/Sprites/Items/Tile_28.png.meta
+    - Assets/Sprites/Items/Tile_29.png.meta
+    - Assets/Sprites/Items/Tile_30.png.meta
+    - Assets/Sprites/Items/Tile_31.png.meta
+    - Assets/Sprites/Items/Tile_32.png.meta
+    - Assets/Sprites/Items/Tile_33.png.meta
+    - Assets/Sprites/Items/Tile_34.png.meta
+    - Assets/Sprites/Items/Tile_35.png.meta
+    - Assets/Sprites/Items/Tile_36.png.meta
+    - Assets/Sprites/Items/Tile_37.png.meta
+    - Assets/Sprites/Items/Tile_38.png.meta
+    - Assets/Sprites/Items/Tile_39.png.meta
+    - Assets/Sprites/Items/Tile_40.png.meta
+    - Assets/Sprites/Items/Tile_41.png.meta
+    - Assets/Sprites/Items/Tile_42.png.meta
+    - Assets/Sprites/Items/Tile_43.png.meta
+    - Assets/Sprites/Items/Tile_44.png.meta
+    - Assets/Sprites/Items/Tile_45.png.meta
+    - Assets/Sprites/Items/Tile_46.png.meta
+    - Assets/Sprites/Items/Tile_47.png.meta
+    - Assets/Sprites/Items/Tile_48.png.meta
+    - Assets/Sprites/Items/Tile_49.png.meta
+    - Assets/Sprites/Items/Tile_50.png.meta
+    - Assets/Sprites/Items/Tile_51.png.meta
+    - Assets/Sprites/Items/Tile_52.png.meta
+    - Assets/Sprites/Items/Tile_53.png.meta
+    - Assets/Sprites/Items/Tile_54.png.meta
+    - Assets/Sprites/Items/Tile_55.png.meta
+    - Assets/Sprites/Items/Tile_56.png.meta
+    - Assets/Sprites/Items/Tile_57.png.meta
+    - Assets/Sprites/Items/Tile_58.png.meta
+    - Assets/Sprites/Items/Tile_59.png.meta
+    - Assets/Sprites/Items/Tile_60.png.meta
+    - Assets/Sprites/Items/Tileset.png.meta
+    - Assets/Sprites/Ladders.meta
+    - Assets/Sprites/Ladders/1.png.meta
+    - Assets/Sprites/Ladders/2.png.meta
+    - Assets/Sprites/Ladders/3.png.meta
+    - Assets/Sprites/Ladders/4.png.meta
+    - Assets/Sprites/Ladders/5.png.meta
+    - Assets/Sprites/Ladders/6.png.meta
+    - Assets/Sprites/Palette.meta
+    - Assets/Sprites/Palette/New Palette.prefab
+    - Assets/Sprites/Palette/New Palette.prefab.meta
+    - Assets/Sprites/Palette/Tile_01.asset
+    - Assets/Sprites/Palette/Tile_01.asset.meta
+    - Assets/Sprites/Palette/Tile_02.asset
+    - Assets/Sprites/Palette/Tile_02.asset.meta
+    - Assets/Sprites/Palette/Tile_03.asset
+    - Assets/Sprites/Palette/Tile_03.asset.meta
+    - Assets/Sprites/Pointers.meta
+    - Assets/Sprites/Pointers/1.png.meta
+    - Assets/Sprites/Pointers/2.png.meta
+    - Assets/Sprites/Pointers/3.png.meta
+    - Assets/Sprites/Pointers/4.png.meta
+    - Assets/Sprites/Pointers/5.png.meta
+    - Assets/Sprites/Pointers/6.png.meta
+    - Assets/Sprites/Pointers/7.png.meta
+    - Assets/Sprites/Pointers/8.png.meta
+    - Assets/Sprites/Ridges.meta
+    - Assets/Sprites/Ridges/1.png.meta
+    - Assets/Sprites/Ridges/2.png.meta
+    - Assets/Sprites/Ridges/3.png.meta
+    - Assets/Sprites/Ridges/4.png.meta
+    - Assets/Sprites/Ridges/5.png.meta
+    - Assets/Sprites/Ridges/6.png.meta
+    - Assets/Sprites/Scripts.meta
     - Assets/Sprites/Scripts/Core.meta
     - Assets/Sprites/Scripts/Core/CameraController.cs
     - Assets/Sprites/Scripts/Core/CameraController.cs.meta
@@ -110,19 +446,27 @@ MonoBehaviour:
     - Assets/Sprites/Scripts/Enemies.meta
     - Assets/Sprites/Scripts/Enemies/ArrowTrap.cs
     - Assets/Sprites/Scripts/Enemies/ArrowTrap.cs.meta
+    - Assets/Sprites/Scripts/Enemies/Enemy1.controller
+    - Assets/Sprites/Scripts/Enemies/Enemy1.controller.meta
     - Assets/Sprites/Scripts/Enemies/Enemy1Controller.cs
     - Assets/Sprites/Scripts/Enemies/Enemy1Controller.cs.meta
     - Assets/Sprites/Scripts/Enemies/EnemyDamage.cs
     - Assets/Sprites/Scripts/Enemies/EnemyDamage.cs.meta
+    - Assets/Sprites/Scripts/Enemies/EnemyPatrol.cs
+    - Assets/Sprites/Scripts/Enemies/EnemyPatrol.cs.meta
     - Assets/Sprites/Scripts/Enemies/EnemyProjectile.cs
     - Assets/Sprites/Scripts/Enemies/EnemyProjectile.cs.meta
     - Assets/Sprites/Scripts/Enemies/Enemy_Sideways.cs
     - Assets/Sprites/Scripts/Enemies/Enemy_Sideways.cs.meta
     - Assets/Sprites/Scripts/Enemies/Firetrap.cs
     - Assets/Sprites/Scripts/Enemies/Firetrap.cs.meta
+    - Assets/Sprites/Scripts/Enemies/New Animation.anim
+    - Assets/Sprites/Scripts/Enemies/New Animation.anim.meta
     - Assets/Sprites/Scripts/Enemies/Spikehead.cs
     - Assets/Sprites/Scripts/Enemies/Spikehead.cs.meta
+    - Assets/Sprites/Scripts/Health.meta
     - Assets/Sprites/Scripts/Health/Health.cs
+    - Assets/Sprites/Scripts/Health/Health.cs.meta
     - Assets/Sprites/Scripts/Health/Healthbar.cs
     - Assets/Sprites/Scripts/Health/Healthbar.cs.meta
     - Assets/Sprites/Scripts/LoadingManager.cs
@@ -136,6 +480,13 @@ MonoBehaviour:
     - Assets/Sprites/Scripts/Player.meta
     - Assets/Sprites/Scripts/Player/PlayerMovement.cs
     - Assets/Sprites/Scripts/Player/PlayerMovement.cs.meta
+    - Assets/Sprites/Square.png.meta
+    - Assets/Sprites/Stones.meta
+    - Assets/Sprites/Stones/1.png.meta
+    - Assets/Sprites/Stones/2.png.meta
+    - Assets/Sprites/Stones/3.png.meta
+    - Assets/Sprites/Stones/4.png.meta
+    - Assets/Sprites/Stones/5.png.meta
     - Assets/Sprites/Terrain.meta
     - Assets/Sprites/Terrain/Terrain (16x16) 1.png
     - Assets/Sprites/Terrain/Terrain (16x16) 1.png.meta
@@ -365,14 +716,27 @@ MonoBehaviour:
     - Assets/Sprites/Traps/Traps/Trampoline/Idle.png.meta
     - Assets/Sprites/Traps/Traps/Trampoline/Jump (28x28).png
     - Assets/Sprites/Traps/Traps/Trampoline/Jump (28x28).png.meta
+    - Assets/Sprites/Trees.meta
+    - Assets/Sprites/Trees/1.png.meta
+    - Assets/Sprites/Trees/2.png.meta
+    - Assets/Sprites/Trees/3.png.meta
+    - Assets/Sprites/Willows.meta
+    - Assets/Sprites/Willows/1.png.meta
+    - Assets/Sprites/Willows/2.png.meta
+    - Assets/Sprites/Willows/3.png.meta
     - Assets/scr.cs
     - Assets/scr.cs.meta
+    - Packages/manifest.json
+    - Packages/packages-lock.json
     - ProjectSettings/EditorBuildSettings.asset
+    - ProjectSettings/Physics2DSettings.asset
+    - ProjectSettings/ProjectSettings.asset
+    - ProjectSettings/ProjectVersion.txt
+    - ProjectSettings/TagManager.asset
+    - ProjectSettings/UnityConnectSettings.asset
     - 
-    m_Values: 01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
-  RevisionSummary: ':c
-
-'
+    m_Values: 01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
+  RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 
   HistoryPageNumber: 0
